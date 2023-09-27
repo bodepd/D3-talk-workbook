@@ -1,0 +1,13 @@
+account: "Creates an AWS account that is secure and has entitlements for authorization"
+
+authorization: "creates groups and entitlements in active directoy that can be used for authorization"
+
+compute: "Deploys containers together with everything required to support upgrades and reduce downtime"
+
+ingress: "Allows a deployed container to be routed to, deploys load balancer, DNS address, certificates, and supports both host-based routing and path-based routing"
+
+transitGatway: "Provisions a hub network that can route between networks. Assigns ip addresses to avoid conflicts"
+
+sqlDatabase: "creates SQL databases"
+
+objectStorage: "creates a directory where objects can be stored."

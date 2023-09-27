@@ -1,0 +1,27 @@
+# Overview
+
+The transit gateway services allows the provisioning of a network that
+allows you to route from the VPC in your cloud account to other VPCs.
+
+It does this both by configuring routes from your VPC to the transit
+newtwork and also by configuring DNS in your account so that you can
+both resolve DNS addresses across the network and so that you can
+leverage DNS addresses that can be resolved.
+
+# Inputs
+
+The following inputs can be configured when requesting a transit
+gateway:
+
+Environment: The environment of your environment, this will determine
+what networks it can route to and whether is can configure a NAT
+Gateway.
+
+Allow NAT Gateway: A boolean for if you want to be able to reach the
+outside internet through the transit gateway.
+
+IP block: a size of IPs to request that will be non-overlapping. The
+gateways ensure that
+
+VPCId: ID of VPC that you want to configure to use the transit gateway.
+Routes and DNS resolvers will be configured for this VPC
