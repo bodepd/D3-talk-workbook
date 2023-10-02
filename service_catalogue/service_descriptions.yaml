@@ -2,7 +2,7 @@ account: "Creates an AWS account that is secure and has entitlements for authori
 
 authorization: "creates groups and entitlements in active directoy that can be used for authorization"
 
-compute: "Deploys containers together with everything required to support upgrades and reduce downtime"
+workload: "Deploys containers together with everything required to support upgrades and reduce downtime"
 
 ingress: "Allows a deployed container to be routed to, deploys load balancer, DNS address, certificates, and supports both host-based routing and path-based routing"
 
