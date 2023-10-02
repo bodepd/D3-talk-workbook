@@ -1,4 +1,4 @@
-compute:
+workload:
   container: "nginx:latest"
   cpu: 1
   memory: 2000

@@ -1,6 +1,6 @@
 - "account"
 - "authorization"
-- "compute"
+- "workload"
 - "ingress"
 - "transitGateway"
 - "sqlDatabase"

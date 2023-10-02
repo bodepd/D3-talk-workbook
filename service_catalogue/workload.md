@@ -1,6 +1,6 @@
 # Overview
 
-The compute resource allows compute to be provisioned for processes in a way that
+The workload resource allows compute to be provisioned for processes in a way that
 supports both availability and supports upgrades without downtime.
 
 # Inputs
