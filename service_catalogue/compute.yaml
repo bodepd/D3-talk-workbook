@@ -1,0 +1,6 @@
+compute:
+  container: "nginx:latest"
+  cpu: 1
+  memory: 2000
+  health_check: "curl localhost:8080/health"
+  replicas: 3

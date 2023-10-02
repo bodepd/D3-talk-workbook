@@ -9,8 +9,8 @@ container: container to be provisioned
 memory: amount of memory to be scheduled
 cpu: amount of cpu to be scheduled
 health_check: scripts that runs on the local container to validate that service is healthy.
-readiness_prove: script that runs on local container to validate that service has started
-repicates: number of instances to run concurrently
+readiness_probe: script that runs on local container to validate that service has started
+repicas: number of instances to run concurrently
 
 # outputs
 
