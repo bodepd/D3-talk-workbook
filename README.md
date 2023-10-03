@@ -1,6 +1,6 @@
 this directory is run from a Jupyter notebook.
 
-this project contains a Jupyter notebook that shows
+This project contains a Jupyter notebook that shows
 examples of how langchain can build a developer
 experience that makes it easier to interact with
 a service catalogue.
